@@ -7,6 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/container"
     tools:context="applista.manu.com.MainActivity"
 
     android:orientation="vertical">
@@ -36,17 +37,6 @@
             android:layout_marginTop="20dp" />
 
     </LinearLayout>
-    <LinearLayout android:id="@+id/linear_layout_lista"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-        <ListView
-            android:id="@+id/listatarefas"
-            android:layout_width="wrap_content"
-            android:layout_height="345dp"></ListView>
-
-
-    </LinearLayout>
 
 </LinearLayout>
